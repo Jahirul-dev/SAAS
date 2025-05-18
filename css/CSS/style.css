@@ -23,6 +23,33 @@ ul {
 img {
   max-width: 100%;
 }
+/* Navbar  */
+.navbar{
+  padding: 12px;
+  background-color: rgb(239, 235, 227);
+}
+
+.navbar .container{
+  display: flex ;
+  /* flex-direction: column; */
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar .main-menu ul{
+  display: flex;
+}
+
+.navbar ul li a{
+  padding: 10px 20px;
+  display: block;
+  font-weight: 600;
+  transition: 1s;
+}
+
+.navbar ul li a:hover{
+  color: darkgray;
+}
 
 /* Utility classes */
 
@@ -31,3 +58,4 @@ img {
   padding: 0 15px;
   margin: 0 auto;
 }
+
